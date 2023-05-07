@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Castoro+Titling&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Castoro Titling', cursive;
+    /*background-color: rgb(235, 123, 123);*/
+}
+.jka{
+    list-style-type: none;
+    background-color: #c499b6;
+    padding-block: 10px;
+    position:sticky;
+    top: 0px;
+    border: 2px solid black;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+.jka_menu {
+    display:inline-block;
+    margin-inline: 10px;
+       
+}
+
+
+.jka_menu a {
+    color: rgb(227, 226, 226)    ;
+    text-decoration: none;
+}
+
+.jka_menu.active a, .active,  a:hover {
+    text-decoration: underline double #b5c6e5;
+}
+
+.main{
+    padding: 40px;
+}
+.carita{
+    width: 23%;
+    height: 300px;
+    background-color: rgb(232, 217, 227);
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-inline: 5%;
+    margin-block: 20px;
+    overflow: scroll; 
+    border: 2px solid black;
+      
+}
+.carita_gato {
+    width: 100%;
+    border-radius: 20px;
+    
+}
+
+.carita_titulo {
+    font-size: 20px;
+    text-align: center;
+}
+
+.carita_parafo {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.carita_boton {
+    text-align: center;
+    border: none;
+    padding: 15px;
+    background-color: black;
+    border-radius: 10px;
+
+}
+
+.carita_boton,
+.carita_gato,
+.carita_parafo,
+.carita_titulo{
+    margin-bottom: 15px;
+}
+
+.logi{
+    position:sticky;
+    top: 0px;
+    right: 10px;
+    width: 100px;
+}
